@@ -32,4 +32,4 @@ for c in lookup:
     cipher_shifted.append((c + secret) % len(alphabet) + 1)
 for c in cipher_shifted:
     ciphertext.append(list(alphanum.keys())[list(alphanum.values()).index(c)])
-print(''.join(ciphertext))
+print("Ciphertext: " + ''.join(ciphertext))
